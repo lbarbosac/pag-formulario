@@ -11,32 +11,37 @@
 <div class="container">
     <div>
         <h1>Login</h1>
-        <button>X</button>
+        <button class="botao-fecha">X</button>
     </div>
 
     <div>
-        <label for="usuário">Digite seu usuário</label><br>
-        <input type="text" id="nome" name="nome">
+        <label class="digite-usuario" for="usuário">Digite seu usuário</label><br>
+        <input class="id-usuario" type="text" id="nome" name="nome">
     </div>
 
     <div>
-        <label for="password">Digite sua senha</label><br>
-        <input type="password" id="senha" name="senha">
+        <label class="digite-senha" for="password">Digite sua senha</label><br>
+        <input class="id-senha" type="password" id="senha" name="senha">
     </div>
     
     <div>
-        <label for="">Exibir senha</label>
-        <input type="checkbox">
+        <label class="exibir-senha" for="">Exibir senha</label>
+        <input class="bloco-senha" type="checkbox" name="confirmar">
     </div>
 
     <div>
-        <a href="#"><button>Entrar</button></a>
+        <a href="#"><button class="botao-entrar" >Entrar</button></a>
     </div>
 
     <div>
-        <p>Não possui uma conta?</p>
-        <a href="#"><p><b>Criar Nova Conta</b></p></a>
+        <p class="nao-conta">Não possui uma conta?</p>
+        <a href="cadastrar.html"><p class="criar-nova-conta" ><b>Criar Nova Conta</b></p></a>
     </div>
 </div>
+
+    <script>
+        alert("Por favor, complete os dados")  
+    </script>
+
 </body>
 </html>
