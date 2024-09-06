@@ -118,7 +118,6 @@ p {
 }
 
 b {
-    text-decoration: none;
     cursor: pointer;
     color: #42426F;
 }
@@ -133,9 +132,12 @@ b {
 
 .entrar-sistema {
     margin-left: 75px;
+    text-decoration: none;
 } 
 
-
+a {
+    text-decoration: none;
+}
 
 .botao-cadastrar-aqui {
     text-decoration: none;
